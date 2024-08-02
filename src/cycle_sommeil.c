@@ -56,7 +56,7 @@ time sleep_later(time start, time last, time end) {
 }
 
 
-int main(int argc, char *argv[]) {
+int main() {
 
     time s;
     printf("Donnez l'heure à laquelle vous voulez vous coucher (juste l'heure !) : "); scanf("%d", &s.h);
